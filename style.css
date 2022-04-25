@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: rgba(137, 43, 226, 0.587);
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  /* position: fixed;
+  width: 100%;
+  margin-top: 0%; */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 20px;
+  gap: 30px;
+}
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: rgb(122, 36, 15);
+}
+
+nav h1 {
+  margin-left: 20px;
+}
+.navHeading {
+  font-size: 30px;
+  font-weight: bold;
+  align-self: center;
+  margin-left: 20px;
+}
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: rgba(218, 205, 189, 0.705);
+  padding: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  color: rgb(148, 72, 21);
+  padding: 5px;
+
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  color: #ffffff;
+  background-color: rgba(133, 119, 102, 0.719);
+}
+
+body {
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-page img,
+p {
+  width: 400px;
+}
+
+#main-page img:hover {
+  transform: scale(1.05);
+}
+
+#main-page a {
+  text-decoration: none;
+  color: rgba(89, 13, 13, 0.612);
+  font-weight: 700;
+}
+
+.biryani {
+  margin-top: 50px;
+  margin-left: 40rem;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  width: fit-content;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgba(111, 170, 170, 0.418);
+}
+
+.biryani h2 {
+  background-color: rgba(40, 40, 40, 0.693);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+.biryani h2:hover {
+  color: rgba(40, 40, 40, 0.693);
+  background-color: rgba(188, 89, 89, 0.697);
+}
+
+.biryani-h1 {
+  color: rgba(12, 109, 30, 0.964);
+  background-color: rgba(23, 117, 117, 0.305);
+  width: fit-content;
+}
+.biryani-h1:hover {
+  color: blueviolet;
+}
+
+.friends {
+  margin-left: 40rem;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  width: fit-content;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgba(111, 170, 170, 0.418);
+}
+.friends h2 {
+  background-color: rgba(40, 40, 40, 0.693);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+.friends h2:hover {
+  color: rgba(40, 40, 40, 0.693);
+  background-color: rgba(188, 89, 89, 0.697);
+}
+.friends-h1 {
+  color: rgba(12, 109, 30, 0.964);
+  background-color: rgba(23, 117, 117, 0.305);
+  width: fit-content;
+}
+.friends-h1:hover {
+  color: blueviolet;
+}
+
+.scientists {
+  margin-left: 40rem;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  width: fit-content;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgba(111, 170, 170, 0.418);
+}
+
+.scientists h2 {
+  background-color: rgba(40, 40, 40, 0.693);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+.scientists h2:hover {
+  color: rgba(40, 40, 40, 0.693);
+  background-color: rgba(188, 89, 89, 0.697);
+}
+
+.scientist-h1 {
+  color: rgba(12, 109, 30, 0.964);
+  background-color: rgba(23, 117, 117, 0.305);
+  width: fit-content;
+}
+.scientist-h1:hover {
+  color: blueviolet;
+}
+
+.biryani-main {
+  margin-left: 20px;
+}
+
+.biryani-header img {
+  margin-left: 40rem;
+}
+
+.biryani-article p {
+  width: 100%;
+  padding-right: 20px;
+}
+
+#biryani-section img {
+  margin-left: 40rem;
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.friends-main {
+  margin-left: 20px;
+}
+
+.friends-header img {
+  margin-left: 40rem;
+}
+
+.friends-main p {
+  width: 100%;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#friends-section img {
+  margin-left: 40rem;
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.scientist-main {
+  margin-left: 20px;
+}
+
+.scientist-header img {
+  margin-left: 40rem;
+
+  width: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.scientist-main p {
+  width: 100%;
+  padding-right: 20px;
+}
+
+.link {
+  display: flex;
+  border: 1px solid black;
+  margin: 20px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: rgba(111, 170, 170, 0.418);
+}
+
+.link .p1 {
+  margin-left: 400px;
+}
+
+.link img {
+  margin-left: 20px;
+}
+
+footer {
+  background-color: rgba(46, 94, 136, 0.67);
+}
+footer p {
+  width: 100%;
+}
