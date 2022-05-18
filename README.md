@@ -32,8 +32,7 @@ Notes:
 
 ![homepage](./img/img.png)
 
-### Single post page
-
+### Single post 
 ---
 
 ![post](./img/img2.png)
