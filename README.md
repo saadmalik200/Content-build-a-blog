@@ -1,5 +1,11 @@
 # Build a Blog
 
+## Link
+
+- Live Site URL: [https://saadmalik200.github.io/Content-build-a-blog/](https://saadmalik200.github.io/Content-build-a-blog/)
+
+## Instructions
+
 - Create an `index.html` page and a `posts` directory containing your blog posts
 - Inside the posts directory create a HTML file for each post, for example `post-1.html`, `post-2.html` etc. Create at least 3 posts
 - In the `index.html` list all the posts available, showing the main picture, title, and the first few lines of content. At the end, put a `read more` link that points to the full blog post
@@ -24,10 +30,10 @@ Notes:
 
 ---
 
-![homepage](homepage.png)
+![homepage](./img/img.png)
 
 ### Single post page
 
 ---
 
-![post](post.png)
+![post](./img/img2.png)
